@@ -1,6 +1,6 @@
 class Solution:
     def minExtraChar(self, s: str, dictionary: List[str]) -> int:
-        # Convert the dictionary list into a set for O(1)
+        # Convert the dictionary list into a set for O(1) 
         wordSet = set(dictionary)
         n = len(s)
         
